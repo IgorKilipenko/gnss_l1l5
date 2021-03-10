@@ -9,6 +9,6 @@ build/
 doc/api/
 
 # third_party
-dart_serial_port/
-libserialport
-RTKLIB
+#dart_serial_port/
+#libserialport
+#RTKLIB
