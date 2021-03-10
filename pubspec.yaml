@@ -1,0 +1,21 @@
+name: gnss_l1l5
+description: A sample command-line application.
+# version: 1.0.0
+# homepage: https://www.example.com
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  path: ^1.8.0
+  dart_serial_port: ^0.1.0
+  ffi: ^1.0.0
+  dylib: ^0.3.1
+
+#dependency_overrides:
+#  dart_serial_port:
+#    path: dart_serial_port
+
+dev_dependencies:
+  pedantic: ^1.11.0
+  test: ^1.16.5

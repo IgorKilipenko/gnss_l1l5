@@ -1,0 +1,14 @@
+# Files and directories created by pub
+.dart_tool/
+.packages
+
+# Conventional directory for build outputs
+build/
+
+# Directory created by dartdoc
+doc/api/
+
+# third_party
+dart_serial_port/
+libserialport
+RTKLIB

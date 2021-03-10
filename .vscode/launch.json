@@ -1,0 +1,24 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "dart_console_test1",
+            "request": "launch",
+            "type": "dart",
+            "env": {
+                "LIBSERIALPORT_PATH": "third_party/out/libserialport",
+                "FORCE_PLATFORM_PREFIX": "lib"
+            },
+            "program": "bin/dart_console_test1.dart"
+        },
+        {
+            "name": "dart_serial_port",
+            "cwd": "dart_serial_port",
+            "request": "launch",
+            "type": "dart"
+        }
+    ]
+}
